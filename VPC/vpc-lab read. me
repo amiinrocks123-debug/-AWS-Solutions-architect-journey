@@ -1,0 +1,38 @@
+# AWS VPC Architecture Project
+
+## 📌 Overview
+
+Designed a secure AWS VPC with public and private subnets to manage traffic and isolate resources.
+
+## 🛠 Services Used
+
+* Amazon VPC
+* EC2
+* Internet Gateway
+* NAT Gateway
+
+## 🏗 Architecture
+
+The VPC includes public and private subnets, with an Internet Gateway for external access and a NAT Gateway for secure outbound traffic.
+
+![Architecture](architecture-diagram.png)
+
+## 🚀 Features
+
+* Public/private subnet separation
+* Secure routing with NAT Gateway
+* Internet access control
+* Traffic filtering with security groups
+
+## ⚙️ Setup Steps
+
+1. Create VPC
+2. Create subnets
+3. Attach Internet Gateway
+4. Configure NAT Gateway
+5. Set route tables
+
+## 📌 Outcome
+
+Built a secure and scalable AWS network infrastructure.
+
