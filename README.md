@@ -1,36 +1,80 @@
-# AWS S3 Static Website Hosting
+# ☁️ AWS Cloud Portfolio
 
 ## 📌 Overview
 
-This project demonstrates how to host a static website using Amazon S3 with optional CloudFront for content delivery.
+This repository showcases hands-on AWS cloud projects demonstrating real-world implementations across storage, networking, security, compute, and serverless architectures.
 
-## 🛠 Services Used
+Each project includes:
 
-* Amazon S3
-* CloudFront
-* AWS IAM
+* Architecture diagrams
+* Step-by-step setup guides
+* Screenshots
+* Documentation
 
-## 🏗 Architecture
+---
 
-User requests are routed through CloudFront CDN to an S3 bucket hosting static website files.
+## 🚀 Projects
 
-![Architecture](architecture-diagram.png)
+### 🔹 S3 Static Website Hosting
 
-## 🚀 Features
+* Hosted a static website using Amazon S3
+* Configured public access and bucket policies
+* Optional CloudFront CDN integration
 
-* Static website hosting
-* Secure bucket configuration
-* CDN integration for performance
-* Public access configuration
+📁 Folder: `/s3-static-website`
 
-## ⚙️ Setup Steps
+---
 
-1. Create S3 bucket
-2. Upload website files
-3. Enable static hosting
-4. Configure bucket policy
-5. (Optional) Add CloudFront distribution
+### 🔹 IAM Security Implementation
 
-## 📌 Outcome
+* Created IAM users, groups, and roles
+* Applied least privilege access
+* Enabled MFA for security
 
-Delivered a scalable and cost-effi
+📁 Folder: `/iam-security`
+
+---
+
+### 🔹 Serverless Application with Lambda
+
+* Built event-driven architecture
+* Configured Lambda triggers
+* Integrated IAM roles
+
+📁 Folder: `/lambda-serverless`
+
+---
+
+### 🔹 EC2 Linux Deployment
+
+* Launched EC2 instance
+* Configured Linux environment
+* Deployed web server
+
+📁 Folder: `/ec2-linux-deployment`
+
+---
+
+### 🔹 CloudFront + DynamoDB Project
+
+* Used CloudFront for content delivery
+* Integrated DynamoDB for data storage
+* Built scalable architecture
+
+📁 Folder: `/cloudfront-dynamodb`
+
+---
+
+## 🧠 Skills Demonstrated
+
+* AWS (EC2, S3, VPC, IAM, Lambda, CloudFront, DynamoDB)
+* Cloud Architecture Design
+* Linux Administration
+* Networking & Security
+* Serverless Computing
+
+---
+
+## 📌 Author
+
+Aspiring Cloud Engineer with hands-on AWS experience and project-based learning.
